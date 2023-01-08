@@ -19,3 +19,9 @@ npm run dev
 ```
 npm run ts
 ```
+
+## Build the project
+
+```
+npm run build
+```
