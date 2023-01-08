@@ -6,8 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon ./dist/app.js",
-    "start": "nodemon ./dist/app.js",
-    "ts": "tsc -w"
+    "ts": "tsc -w",
+    "start": "node ./dist/app.js",
+    "build": "npm install && tsc"
   },
   "keywords": [],
   "author": "",
